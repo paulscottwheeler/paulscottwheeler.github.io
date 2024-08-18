@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar - Paul-Scott Wheeler</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <style>
+        body {
+            font-family: 'Press Start 2P', Courier, monospace;
+            color: #9999FF; /* Lighter purple */
+            background-color: #000000; /* Black */
+            background-image: url('smear-ink.png'); /* URL to ink smear background image */
+            background-size: cover;
+            background-blend-mode: multiply;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: rgba(10, 0, 40, 0.85); /* Darker purple with transparency */
+            padding: 20px;
+            color: #9999FF; /* Lighter purple */
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header-content {
+            max-width: 1200px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header-title {
+            font-size: 1.5rem; /* Adjust title size */
+            margin-bottom: 10px; /* Space between title and navigation */
+        }
+        .nav-social-container {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px; /* Space between title and nav/social */
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px; /* Space between links */
+        }
+        .nav-links a {
+            color: #9999FF; /* Lighter purple */
+            text-decoration: none;
+            padding: 5px 15px; /* Adjust padding for better fit */
+            font-size: 0.875rem; /* Reduced font size */
+        }
+        .nav-links a:hover {
+            background-color: #3F0071; /* Even darker purple */
+        }
+        .social-icons {
+            display: flex;
+            gap: 10px; /* Space between icons */
+        }
+        .social-icons a {
+            color: #9999FF; /* Lighter purple */
+            font-size: 20px; /* Reduced icon size */
+            transition: color 0.3s ease;
+        }
+        .social-icons a:hover {
+            color: #3F0071; /* Even darker purple */
+        }
+        section {
+            padding: 20px;
+            border-bottom: 1px solid #333;
+        }
+        footer {
+            background-color: rgba(10, 0, 40, 0.85); /* Darker purple with transparency */
+            color: #9999FF; /* Lighter purple */
+            text-align: center;
+            padding: 20px; /* Increased padding for footer */
+        }
+        .footer-social-icons {
+            margin-bottom: 10px; /* Space between icons and text */
+        }
+        .footer-social-icons a {
+            color: #9999FF; /* Lighter purple */
+            margin: 0 10px; /* Spacing between icons */
+            font-size: 24px; /* Larger icon size */
+            transition: color 0.3s ease;
+            display: inline-block;
+        }
+        .footer-social-icons a:hover {
+            color: #3F0071; /* Even darker purple */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-title">
+                <h1>Paul-Scott Wheeler</h1>
+            </div>
+            <div class="nav-social-container">
+                <div class="nav-links">
+                    <a href="index.html">PSW</a>
+                    <a href="discography.html">Discography</a>
+                    <a href="calendar.html">Calendar</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://twitch.tv" target="_blank"><i class="fab fa-twitch"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://discord.com" target="_blank"><i class="fab fa-discord"></i></a>
+                    <a href="mailto:altruisticguitar@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a> <!-- Gmail Icon -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <section id="calendar">
+            <h2>Calendar</h2>
+            <!-- Calendar content here -->
+        </section>
+    </div>
+    <footer>
+        <div class="footer-social-icons">
+            <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://twitch.tv" target="_blank"><i class="fab fa-twitch"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://discord.com" target="_blank"><i class="fab fa-discord"></i></a>
+            <a href="mailto:altruisticguitar@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a> <!-- Gmail Icon -->
+        </div>
+        <p>&copy; 2024 Paul-Scott Wheeler</p>
+    </footer>
+</body>
+</html>
